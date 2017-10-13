@@ -81,3 +81,13 @@ audio {
   float: left;
   width: 33.3333333333%;
 }
+#navigation a {
+  display: block;
+  width: 100%;
+  padding-top: 0.611em; /* 11 / 18 = 0.611 */
+  padding-bottom: 0.611em;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  background-color: darkblue;
+}
