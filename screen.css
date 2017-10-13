@@ -63,3 +63,10 @@ li ul {
 li {
   padding-bottom: 0.611em; /* 11 / 18 = 0.6111111 */
 }
+/* Responsive Media */
+img,
+video,
+audio {
+  display: block;
+  max-width: 100%;
+}
