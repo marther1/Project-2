@@ -91,3 +91,17 @@ audio {
   color: white;
   background-color: darkblue;
 }
+/* Modular Styles */
+/*
+  Repeating style patterns.
+  Hint: these tend to be:
+  1. classes and relationship selectors
+  2. concerned with adjustments to base styles,
+      spacing, color, etc. etc.
+*/
+
+#navigation ul,
+#navigation li {
+  list-style-type: none;
+  padding-bottom: 0;
+}
