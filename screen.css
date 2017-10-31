@@ -105,6 +105,9 @@ audio {
   list-style-type: none;
   padding-bottom: 0;
 }
+#navigation a:hover {
+  background-color: #0000FF;
+}
 
 /* State Styles */
 /*
