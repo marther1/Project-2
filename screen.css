@@ -70,6 +70,11 @@ img {
   padding-top: 0.611em; /* 11 / 18 = 0.6111111 */
   padding-bottom: 0.611em; /* 11 / 18 = 0.6111111 */
 }
+figcaption {
+  font-size: 0.75em; /* 13.503px / 18 = 0.75em */
+  line-height: 1.037em; /* 14px / 13.503 = 1.0368em */
+  padding-bottom: 0.815em; /* 11 / 13.503 = 0.81463*/
+}
 
 #navigation {
   position: absolute;
