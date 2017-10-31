@@ -35,7 +35,6 @@ body {
 h1,
 h2,
 h3,
-h4,
 p {
   padding-bottom: 1.222em; /* 22 / 18 = 1.2222222222 */
 }
@@ -51,6 +50,12 @@ h2 {
 }
 h3 {
   font-weight: bold;
+}
+h4 {
+  border-bottom: 0.0625em solid #000000;
+}
+.social {
+  padding-top: 1.222em;
 }
 ul {
   list-style-type: disc;
