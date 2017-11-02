@@ -72,7 +72,7 @@ li {
 /* Responsive Media */
 img {
   display: block;
-  max-width: 80%;
+  max-width: 100%;
   padding-top: 0.611em; /* 11 / 18 = 0.6111111 */
   padding-bottom: 0.611em; /* 11 / 18 = 0.6111111 */
 }
@@ -141,9 +141,21 @@ figcaption {
     padding-right: 11.73333333%; /* 44 / 375 = 11.73333333% */
     padding-left: 11.73333333%; /* 44 / 375 = 11.73333333% */
   }
+  #niagara,
+  #mountain,
+  #aquarium {
+    flex: auto;
+    width: 40%;
+  }
 }
 @media screen and (min-width: 640px) {
   html {
     font-size: 1.25em; /* 20 / 16 = 1.25em */
+  }
+  #niagara,
+  #mountain,
+  #aquarium {
+    flex: auto;
+    width: 45%;
   }
 }
