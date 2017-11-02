@@ -53,6 +53,8 @@ h3 {
 }
 h4 {
   border-bottom: 0.0625em solid #000000;
+  font-weight: bolder;
+  font-style: oblique;
 }
 .social {
   padding-top: 1.222em;
