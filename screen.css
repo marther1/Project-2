@@ -110,6 +110,7 @@ figcaption {
   text-decoration: none;
   color: white;
   background-color: darkblue;
+  font-style: italic;
 }
 #home #nav-home a,
 #resume #nav-resume a,
