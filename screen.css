@@ -145,7 +145,7 @@ figcaption {
   #mountain,
   #aquarium {
     flex: auto;
-    width: 40%;
+    width: 60%;
   }
 }
 @media screen and (min-width: 640px) {
@@ -157,5 +157,13 @@ figcaption {
   #aquarium {
     flex: auto;
     width: 45%;
+  }
+}
+@media screen and (min-width: 860px) {
+  #niagara,
+  #mountain,
+  #aquarium {
+    flex: auto;
+    width: 35%;
   }
 }
