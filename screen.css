@@ -60,6 +60,9 @@ h4 {
   font-weight: bolder;
   font-style: oblique;
 }
+#footer {
+  font-size: 0.750em;
+}
 .social {
   padding-top: 1.222em;
 }
