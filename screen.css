@@ -61,7 +61,7 @@ h4 {
   font-style: oblique;
 }
 #footer {
-  font-size: 0.750em;
+  font-size: 0.75em;
 }
 .social {
   padding-top: 1.222em;
@@ -112,6 +112,9 @@ figcaption {
   background-color: darkblue;
   font-style: italic;
 }
+#navigation a:hover {
+  background-color: #0000FF;
+}
 #home #nav-home a,
 #resume #nav-resume a,
 #interests #nav-interests a {
@@ -131,9 +134,6 @@ figcaption {
 #navigation li {
   list-style-type: none;
   padding-bottom: 0;
-}
-#navigation a:hover {
-  background-color: #0000FF;
 }
 
 /* State Styles */
