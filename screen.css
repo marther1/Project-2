@@ -112,15 +112,6 @@ figcaption {
   background-color: darkblue;
   font-style: italic;
 }
-#navigation a:hover {
-  background-color: #0000FF;
-}
-#home #nav-home a,
-#resume #nav-resume a,
-#interests #nav-interests a {
-  color: #000000;
-  background-color: #00CCFF;
-}
 /* Modular Styles */
 /*
   Repeating style patterns.
@@ -135,7 +126,15 @@ figcaption {
   list-style-type: none;
   padding-bottom: 0;
 }
-
+#navigation a:hover {
+  background-color: #0000FF;
+}
+#home #nav-home a,
+#resume #nav-resume a,
+#interests #nav-interests a {
+  color: #000000;
+  background-color: #00CCFF;
+}
 /* State Styles */
 /*
   States of the browser and user access
