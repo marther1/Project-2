@@ -175,4 +175,19 @@ figcaption {
     flex: auto;
     width: 35%;
   }
+  .cssgrid #school {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 3.488%; /* 30 / 860 = 0.03488372 */
+  }
+  .cssgrid #iit,
+  .cssgrid #mather {
+    width: auto;
+  }
+  .cssgrid #iit {
+    grid-column: 1;
+  }
+  .cssgrid #mather {
+    grid-column: 2/4;
+  }
 }
