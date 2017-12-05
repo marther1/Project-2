@@ -190,4 +190,13 @@ figcaption {
   .cssgrid #skills {
     grid-column: 2/4;
   }
+  .flexbox #primary,
+  .flexbox #secondary {
+    float: none;
+    margin-left: 0;
+    flex: 0 1 auto;
+  }
+  .flexbox #secondary {
+    padding-top: 10%;
+  }
 }
