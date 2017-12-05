@@ -79,7 +79,8 @@ li {
   padding-bottom: 0.611em; /* 11 / 18 = 0.6111111 */
 }
 /* Responsive Media */
-img {
+img,
+video {
   display: block;
   max-width: 100%;
   padding-top: 0.611em; /* 11 / 18 = 0.6111111 */
@@ -174,6 +175,10 @@ figcaption {
   #aquarium {
     flex: auto;
     width: 35%;
+  }
+  #video {
+    flex: auto;
+    width: 80%;
   }
   .cssgrid #content {
     display: grid;
