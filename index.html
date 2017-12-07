@@ -51,6 +51,27 @@
           <li class="email">Email: marther@hawk.iit.edu</li>
           <li class="phone">Phone: (312)-725-2457 </li>
         </ul>
+        <form>
+        <h5>Send Me a Message</h5>
+        <ol>
+          <li>* Please fill in all the fields</li>
+          <li id="input-name">
+            <label for="name">Name</label>
+            <input type="text" name="name" id="name" required="required" />
+          </li>
+          <li id="input-email">
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" required="required" pattern="^.+@.+$" />
+          </li>
+          <li id="input-message">
+            <label for="message">Message</label>
+            <input type="text" name="message" id="message" required="required" />
+          </li>
+          <li id="input-submit">
+            <input type="submit" name="submit" id="submit" value="Submit" />
+          </li>
+        </ol>
+      </form>
       </article>
       <aside id="secondary">
         <figure id="porch">
