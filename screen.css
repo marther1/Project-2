@@ -188,6 +188,7 @@ label[for="accept-terms"] {
   #aquarium {
     flex: auto;
     width: 35%;
+    padding-left: 5%
   }
   #video {
     flex: auto;
@@ -216,5 +217,14 @@ label[for="accept-terms"] {
   }
   .flexbox #secondary {
     padding-top: 10%;
+  }
+  #canada {
+  display: flex;
+  justify-content: space-around;
+  justify-content: space-between;
+  width: 200%;
+  }
+  .second {
+    width: 200%;
   }
 }
