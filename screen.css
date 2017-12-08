@@ -95,7 +95,13 @@ figcaption {
   line-height: 1.037em; /* 14px / 13.503 = 1.0368em */
   padding-bottom: 0.815em; /* 11 / 13.503 = 0.81463*/
 }
-
+form ol,
+form ol li {
+  list-style-type: none;
+}
+label[for="accept-terms"] {
+  display: inline;
+}
 #navigation {
   position: absolute;
   width: 100%;
@@ -139,13 +145,6 @@ figcaption {
 #interests #nav-interests a {
   color: #000000;
   background-color: #00CCFF;
-}
-form ol,
-form ol li {
-  list-style-type: none;
-}
-label[for='accept-terms'] {
-  display: inline;
 }
 /* State Styles */
 /*
