@@ -87,6 +87,9 @@ video {
   padding-top: 0.611em; /* 11 / 18 = 0.6111111 */
   padding-bottom: 0.611em; /* 11 / 18 = 0.6111111 */
 }
+#porch img {
+  image-orientation: 90deg;
+}
 figcaption {
   font-size: 0.75em; /* 13.503px / 18 = 0.75em */
   line-height: 1.037em; /* 14px / 13.503 = 1.0368em */
