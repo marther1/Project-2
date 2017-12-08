@@ -146,6 +146,9 @@ label[for="accept-terms"] {
   color: #000000;
   background-color: #00CCFF;
 }
+.js #video{
+  cursor: pointer;
+}
 /* State Styles */
 /*
   States of the browser and user access
