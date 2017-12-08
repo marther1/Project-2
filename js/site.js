@@ -9,31 +9,8 @@ $('html').removeClass('no-js').addClass('js');
 $.noConflict();
 
 jQuery(function($) {
-  $('#name').on('focus', function() {
-    $('#input-name label').addClass('active');
-  });
-  $('#name').on('blur', function() {
-    if($('#name').val().length === 0) {
-      $('#input-name label').removeClass('active');
-    }
-  });
-
-  $('#email').on('focus', function() {
-    $('#input-email label').addClass('active');
-  });
-  $('#email').on('blur', function() {
-    if($('#email').val().length === 0) {
-      $('#input-email label').removeClass('active');
-    }
-  });
-
-  $('#message').on('focus', function() {
-    $('#input-message label').addClass('active');
-  });
-  $('#message').on('blur', function() {
-    if($('#message').val().length === 0) {
-      $('#input-message label').removeClass('active');
-    }
+  $('#form').on('submit', function(e) {
+  console.log("Comment Submitted! Thank You!");
   });
   $('video').on('click', function() {
     this.paused ? this.play() : this.pause();
