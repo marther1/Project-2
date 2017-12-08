@@ -9,7 +9,7 @@ $('html').removeClass('no-js').addClass('js');
 $.noConflict();
 
 jQuery(function($) {
-$('#name').on('focus', function() {
+  $('#name').on('focus', function() {
     $('#input-name label').addClass('active');
   });
   $('#name').on('blur', function() {
@@ -34,18 +34,18 @@ $('#name').on('focus', function() {
     if($('#message').val().length === 0) {
       $('#input-message label').removeClass('active');
     }
-});
-$('video').on('click', function() {
+  });
+  $('video').on('click', function() {
     this.paused ? this.play() : this.pause();
-});
-$(document).keypress(function(e) {
+  });
+  $('video').keypress(function(e) {
     if(e.key === 'p') {
-      if(video.paused === true) {
-        video.play();
+      if(this.paused === true) {
+        this.play();
       }
       else {
-        video.pause();
+        this.pause();
       }
     }
+  });
 });
-})
