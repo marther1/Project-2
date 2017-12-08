@@ -38,4 +38,14 @@ $('#name').on('focus', function() {
 $('video').on('click', function() {
     this.paused ? this.play() : this.pause();
 });
+$(document).keypress(function(e) {
+    if(e.key === 'p') {
+      if(video.paused === true) {
+        video.play();
+      }
+      else {
+        video.pause();
+      }
+    }
+});
 })
