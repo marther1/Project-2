@@ -35,4 +35,7 @@ $('#name').on('focus', function() {
       $('#input-message label').removeClass('active');
     }
 });
+$('video').on('click', function() {
+    this.paused ? this.play() : this.pause();
+});
 })
