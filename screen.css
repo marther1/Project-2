@@ -228,3 +228,9 @@ label[for="accept-terms"] {
     width: 200%;
   }
 }
+@media screen and (min-width: 1440px) {
+  #porch {
+    flex: auto;
+    width: 20em;
+  }
+}
