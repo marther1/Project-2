@@ -9,8 +9,8 @@ $('html').removeClass('no-js').addClass('js');
 $.noConflict();
 
 jQuery(function($) {
-  $('#form').on('submit', function(e) {
-  console.log("Comment Submitted! Thank You!");
+  $('#form').on('submit', function() {
+    console.log("Comment Submitted! Thank You!");
   });
   $('video').on('click', function() {
     this.paused ? this.play() : this.pause();
